@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.titulo{
+    width: 100%;
+    height: 125px;
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+.titulo h1{
+    font-size: 75px;
+    font-family: 'Modak', cursive;
+    line-height: 120px;
+    letter-spacing: 5px;
+}
+
+.sobre-nosotros{    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-nosotros .piezas{
+    background-color: #F6E7D6;
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    padding: 15px;    
+    border: 1px solid #000;        
+}
+
+h2{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 40px;
+}
+
+.medios-contacto{    
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.medios-contacto ul{
+    position: relative;
+    display: flex;
+}
+
+.medios-contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;    
+}
+
+.medios-contacto ul li a{
+    text-decoration: none;
+}
+
+.medios-contacto ul li a .fa{
+    font-size: 6em;
+    color: #222;
+}
+
+.medios-contacto ul li::before{
+    font-family: fontAwesome;
+    position: absolute;
+    top: -18px;
+    left: 0;
+    font-size: 6em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;    
+}
+
+.medios-contacto ul li:nth-child(1)::before{
+    content: "\f099";
+    color: #1da1f2;
+    border-bottom: 4px solid #1da1f2;
+}
+
+.medios-contacto ul li:nth-child(2)::before{
+    content: "\f09a";
+    color: #4267B2;
+    border-bottom: 4px solid #4267B2;
+}
+
+.medios-contacto ul li:nth-child(3)::before{
+    content: "\f0e0 ";
+    color: #C23A2B;
+    border-bottom: 4px solid #C23A2B;
+}
+
+.medios-contacto ul li:hover::before{
+    height: auto;
+    transition: all 1s ease-in-out;
+}
+
+.sobre-nosotros .piezas h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.sobre-nosotros .piezas p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contacto h4{
+    font-size: 25px;
+}
+
+.contacto h4 a{
+    margin: 8px 0px 0px 10px;     
+}
+
+.contacto img{
+    width: 50px;
+    height: 50px;
+}
+
+

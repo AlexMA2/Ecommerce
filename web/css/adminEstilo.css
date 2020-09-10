@@ -1,0 +1,28 @@
+.seccion{
+    margin: 10px 10px 10px 0px;
+}
+
+.precio{
+    display: flex;
+}
+
+.dolares{
+    margin-left: 8px;
+}
+
+.stock{
+    margin-top: -10px;
+}
+
+.form-one{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.panel-admin{
+    background-color: #fff;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 20px 20px;
+    border: 1px solid #000;
+}

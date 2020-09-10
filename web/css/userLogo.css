@@ -1,0 +1,49 @@
+.sub-nav{
+    display: none;
+    position: absolute;   
+    background-color: #1CBACC;
+    border: 1px solid #ccc;   
+    width: 250px;
+    padding-left: 0px;
+}
+
+.sub-nav li{
+    height: 40px;
+    line-height: 20px;
+}
+
+.sub-nav div{
+    margin-top: 20px;
+    border-bottom: 1px solid #cacaca;
+}
+.sub-nav li:hover{
+    background-color: #1EC8DC;
+    color: #000;
+}
+
+.sub-nav div span{
+    height: 40px;    
+    padding-left: 15px;
+}
+.sub-nav li a{
+    display: block;    
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav li:hover .sub-nav{
+    display: flex;
+    color: #ddd;
+    z-index: 100;
+    flex-direction: column;
+    transition: all 0.5s;
+    padding-left: 0px;
+}
+
+.subnav-data{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: #000;    
+}
